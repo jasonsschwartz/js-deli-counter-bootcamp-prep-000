@@ -28,8 +28,6 @@ function currentLine(deliLine){
         line = line + `, ${lineNum}. ${deliLine[i]}`
       }
     }
-    //line.concat("")
-    console.log(line)
     return line
   } else {
     return "The line is currently empty."
