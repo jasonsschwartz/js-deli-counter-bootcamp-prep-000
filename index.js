@@ -18,7 +18,7 @@ function nowServing(deliLine){
 }
 
 function currentLine(deliLine){
-  line = "The line is currently: "
+  var line = "The line is currently: "
   if (deliLine.length > 0){
     for (let i = 0; i<deliLine.length; i++){
       if (i === 0){
