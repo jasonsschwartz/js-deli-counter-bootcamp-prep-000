@@ -25,7 +25,7 @@ function currentLine(deliLine){
         line = line + `1. ${deliLine[i]}`
       }else{
         lineNum = i + 1
-        line.concat(`, ${lineNum}. ${deliLine[i]}`)
+        line = line + `, ${lineNum}. ${deliLine[i]}`
       }
     }
     //line.concat("")
