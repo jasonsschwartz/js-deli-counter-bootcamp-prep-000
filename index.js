@@ -1,4 +1,5 @@
 var deliLine = []
+var lineNum
 
 function takeANumber(deliLine, name){
   deliLine.push(name)
