@@ -21,7 +21,7 @@ function currentLine(deliLine){
   if (deliLine.length > 0){
     for (let i = 0; i<deliLine.length; i++){
       if (i === 0){
-        line.concat(` 1. ${deliLine[i]}`)
+        line.concat(`1. ${deliLine[i]}`)
       }else{
         lineNum = i + 1
         line.concat(`, ${lineNum}. ${deliLine[i]}`)
